@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background-color: rgba(255, 255, 255, 0.979);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 35);
+    width: 550px;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 420px;
+}
+
+
+
+
+.toggle{
+    position: absolute;
+    background-color: rgb(52, 12, 230);
+    border-radius: 30px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+
+.toggle .title{
+    position: absolute;
+    top: 30px;
+    color: rgba(245, 245, 220, 0.747);
+}
+.toggle .circle{
+    border-radius: 50%;
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.267),rgb(52, 12, 230));
+    width: 150px;
+    height: 150px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin: 20px;
+}
+.circle .resulte{
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 30px;
+}
+.circle .perssontage{
+    color: rgba(245, 245, 220, 0.747);
+    font-size: 10px;
+    position: absolute;
+    bottom: 40px;
+}
+.contex{ 
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+    top: 10px;
+}
+.contex .great{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+}
+.contex .pgh{
+    color: rgba(245, 245, 220, 0.747);
+    font-size: 11px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.first{
+    position: absolute;
+    top: 5px;
+}
+.second{
+    position: absolute;
+    top: 25px;
+}
+.three{
+    position: absolute;
+    top: 45px;
+}
+
+.info_container{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    
+}
+.info{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.summaryInfo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    top: 80px;
+    left: 20px;
+}
+button{
+    background-color:rgb(52, 12, 230) ;
+    color: white;
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    border-radius: 50px;
+    bottom: 30px;
+    left: 20px;
+    border: none;
+}
+.summary_Info{
+    position: relative;
+    width: 200px;
+}
+.summary_Info div{
+    
+    width: 220px;
+    height: 50px;
+    border-radius: 15px;
+}
+.summary_Info .reaction {
+    position: absolute;
+    top: 0;
+    background-color: rgb(245, 191, 191);;
+}
+.summary_Info .memory{
+    position: absolute;
+    top: 60px;
+    background-color: rgb(255, 227, 174);
+}
+.summary_Info .verbal{
+    position: absolute;
+    top: 120px;
+    background-color: rgb(163, 240, 240);
+}
+.summary_Info .visual{
+    position: absolute;
+    top: 180px;
+    background-color: rgb(182, 182, 240);
+}
+.infor_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.reaction i{
+    position: absolute;
+    left: 20px;
+    color: red;
+    border-color: black;
+}
+.reaction .info_title{
+    position: absolute;
+    color: red;
+    left: 50px;
+}
+.infor_container .info_result{
+    position: absolute;
+    left: 150px;
+}
+.infor_container .info_persontag{
+    position: absolute;
+    left: 180px;
+    color: rgba(0, 0, 0, 0.445);
+}
+.infor_container i{
+    width: 20px;
+    height: 20px;
+}
+.memory i{
+    position: absolute;
+    color: orange;
+
+    left: 20px;
+}
+.memory .info_title{
+    color: orange;
+    position: absolute;
+    left: 50px;
+}
+
+
+.verbal i{
+    position: absolute;
+    color: rgb(15, 165, 165);
+    left: 20px;
+}
+.verbal .info_title{
+    color: rgb(15, 165, 165);
+    position: absolute;
+    left: 50px;
+}
+
+
+.visual i{
+    position: absolute;
+    color: rgb(25, 0, 255);
+    left: 20px;
+}
+.visual .info_title{
+    color: rgb(25, 0, 255);
+    position: absolute;
+    left: 50px;
+}
